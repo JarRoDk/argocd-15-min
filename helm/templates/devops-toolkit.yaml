@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: defaults
+  project: default
   source:
     path: helm
     repoURL: https://github.com/vfarcic/devops-toolkit.git
