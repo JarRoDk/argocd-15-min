@@ -18,10 +18,10 @@ spec:
         ingress:
           host: devops-toolkit.10.43.0.1.xip.io
       version: v3
-    destination:
-      namespace: production
-      server: https://kubernetes.default.svc
-    syncPolicy:
-      automated:
-        selfHeal: true
-        prune: true
+  destination:
+    namespace: production
+    server: https://kubernetes.default.svc
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
